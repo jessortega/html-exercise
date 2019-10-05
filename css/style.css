@@ -1,0 +1,48 @@
+*{
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+h1 {
+    color: darkkhaki;
+    font-family: 'Playfair Display', serif;
+    font-weight:700;
+}
+
+h2 {
+    color: chocolate;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight:400;
+
+}
+
+h3 {
+    color: peru;
+    font-family: 'Alegreya Sans', sans-serif;
+
+}
+
+h4 {
+    color: forestgreen;
+    font-family: 'Alegreya Sans', sans-serif;
+
+}
+
+h5 {
+    color: fuchsia;
+    font-family: 'Alegreya Sans', sans-serif;
+
+}
+
+h6 {
+    color: paleturquoise;
+    font-family: 'Alegreya Sans', sans-serif;
+
+}
+
+p {
+    color: purple;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 1.5em;
+    border: 1px red solid;
+
+}
