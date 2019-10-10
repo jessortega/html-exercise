@@ -2,17 +2,17 @@
     font-family: 'Alegreya Sans', sans-serif;
 }
 
+/* heading */
 h1 {
-    color: darkkhaki;
+    color: #ffffff;
     font-family: 'Playfair Display', serif;
     font-weight:700;
 }
 
 h2 {
-    color: chocolate;
+    color:  #05a72c;
     font-family: 'Alegreya Sans', sans-serif;
     font-weight:400;
-
 }
 
 h3 {
@@ -40,9 +40,181 @@ h6 {
 }
 
 p {
-    color: purple;
-    font-family: 'Alegreya Sans', sans-serif;
-    font-size: 1.5em;
-    border: 1px red solid;
+    color: #333333;
+    /* font-size: 1em; */
+    line-height: 1.5em;
+}
+
+header {
+    background-color: #ffffff;
+    height: 110px;
+    justify-content: space-between;
+}
+
+main {
+    /* height: 530px; */
+    padding: 24px;
+    background-color: #00a82d;
+    background-image: url("../images/document-lime-repeat.png");
+    background-size: 50%;
+    background-repeat: repeat;
+    justify-content: space-around;
+    /* background-color: rgba(5, 167, 44,0.4); */
+}
+
+div {
+    /* border: 1px red dotted; */
+}
+
+footer{
+    background-color: #eee;
+    /* height: 850px; */
+}
+
+.txtCenter{
+    text-align: center;
+}
+
+.txtJustify{
+    text-align: justify;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 
 }
+
+li a{
+    display: inline-block;
+    padding: 4px 8px;
+}
+
+li {
+    display: inline;
+    padding: 40px;
+}
+
+.headtest {
+    color: black;
+}
+
+.icon-red {
+    color: red;
+}
+
+.bkColorGray {
+    background-color: #f7f7f7;
+}
+
+.bkSizeLarge {
+    /* height: 750px; */
+    padding: 24px;
+
+}
+
+.imgRounded {
+    border-radius: 50%;
+    background-image: url("../images/cats1.jpg");
+    width: 100px;
+    height: 100px;
+    background-color: azure;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 0;
+    display: block;
+    margin: 0 auto;
+
+     /* margin-left: auto; */
+     /* margin-right: auto;
+     width: 30%; */
+}
+.logoEvernote {
+    background-image: url("../images/evernote_logo.png");
+    width: 200px;
+    height: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+button {
+
+}
+.backgroundPattern1 {
+    background-image: url("../images/squiggles.png");
+    background-position: center;
+    background-repeat: repeat;
+
+
+}
+.button-outline{
+    display: inline-block;
+    height: 40px;
+    border-radius: 3px;
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid green;
+    padding: 0 10;
+
+}
+
+a {
+    /* padding: 10px 55px;
+    /* padding-top: 50px */
+    /* margin: 30px;
+    border: 30px; */ 
+}
+
+a:link{
+    text-decoration: none;
+    color: black;
+}
+
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: #00a82d;
+    text-decoration: underline;
+}
+
+a:active{
+    color: aquamarine;
+}
+
+.col{
+    /* float: left; */
+    padding: 16px 48px;
+    /* border: 1px solid green;
+    width: 30%; */ 
+}
+
+.row{
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.fas {
+    color: royalblue;
+}
+
+.col-1 {width: 8.33%;}
+/* .col-2 {width: 16.66%;} */
+.col-2 {width: 14%;}
+.col-3 {width: 25%;}
+.col-4 {
+    width: calc(100%/3);
+}
+/* .col-4 {width: 33.33%;} */
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
