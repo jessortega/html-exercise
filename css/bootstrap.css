@@ -1,0 +1,50 @@
+section {
+    /* display: flex;
+    align-items: center; */
+}
+
+.card {
+    /* margin: 15%; */
+}
+
+.card-img-top{
+    width:100%;
+    height: 35vw;
+    object-fit: cover;
+}
+
+.row {
+    padding 16px 16px;
+    margin: 24px;
+}
+
+.tales {
+    width: 100%
+}
+
+.carousel-inner {
+    width: 100%;
+    max-height: 800px !important;
+}
+
+.btn {
+    color: rosybrown;
+    background-color: mistyrose;
+    border-color: rosybrown;
+    border-width: 2px;
+}
+.btn:hover{
+    text-decoration-color: mistyrose;
+    background-color: rosybrown;
+    border-color: #ffffff;
+    text-decoration: italic;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: seashell;
+}
+
+.display4 {
+    color: rosybrown;
+}

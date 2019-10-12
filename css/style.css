@@ -3,6 +3,8 @@
 }
 
 /* heading */
+
+
 h1 {
     color: #ffffff;
     font-family: 'Playfair Display', serif;
@@ -11,32 +13,28 @@ h1 {
 
 h2 {
     color:  #05a72c;
-    font-family: 'Alegreya Sans', sans-serif;
     font-weight:400;
 }
 
 h3 {
     color: peru;
-    font-family: 'Alegreya Sans', sans-serif;
 
 }
 
 h4 {
     color: forestgreen;
-    font-family: 'Alegreya Sans', sans-serif;
 
 }
 
 h5 {
     color: fuchsia;
-    font-family: 'Alegreya Sans', sans-serif;
 
 }
 
 h6 {
     color: paleturquoise;
-    font-family: 'Alegreya Sans', sans-serif;
-
+    font-size: 1.5em;
+    margin: 20px 0px;
 }
 
 p {
@@ -47,8 +45,11 @@ p {
 
 header {
     background-color: #ffffff;
-    height: 110px;
+    /* height: 110px; */
     justify-content: space-between;
+    display: none;
+    visibility: hidden;
+
 }
 
 main {
@@ -88,12 +89,12 @@ ul{
 
 li a{
     display: inline-block;
-    padding: 4px 8px;
+    padding: 8px 40px;
 }
 
 li {
     display: inline;
-    padding: 40px;
+    /* padding: 40px; */
 }
 
 .headtest {
@@ -139,16 +140,23 @@ li {
     background-size: cover;
     background-repeat: no-repeat;
 }
-button {
 
+
+.alignCenter{
+    align-items: center;
 }
+
+button {
+    padding: 16px;
+    text-transform: uppercase;
+}
+
 .backgroundPattern1 {
     background-image: url("../images/squiggles.png");
     background-position: center;
     background-repeat: repeat;
-
-
 }
+
 .button-outline{
     display: inline-block;
     height: 40px;
@@ -156,8 +164,9 @@ button {
     text-decoration: none;
     text-align: center;
     border: 2px solid green;
-    padding: 0 10;
-
+    padding: 0 10px;
+    line-height: 40px;
+    min-width: 120px;
 }
 
 a {
@@ -193,6 +202,10 @@ a:active{
     width: 30%; */ 
 }
 
+.flex, .row{
+    display: flex;
+
+}
 .row{
     display: flex;
     /* justify-content: space-between; */
@@ -218,3 +231,23 @@ a:active{
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
+
+
+
+/* parent starts */
+@media only screen and (min-width: 600px) {
+    h1{
+        color: yellow;
+    }
+    header{
+        background-color: #ffffff;
+         /* height: 110px; */
+         justify-content: space-between;
+}
+/* parent ends */
+
+@media only screen and (min-width: 786px) {
+    h1{
+        color: mediumblue;
+    }
+}
